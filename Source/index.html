@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/939e21711e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Register -->
+    <h1 id="register">Register</h1>
+
+    <!-- Form -->
+    <form>
+      <div class="field-user active">
+        <i class="fas fa-user"></i>
+        <input
+          type="text"
+          placeholder="Username"
+          required
+          autocomplete="username"
+          spellcheck="false"
+        />
+        <i class="fas fa-arrow-right"></i>
+      </div>
+      <div class="field-mail inactive">
+        <i class="fas fa-envelope"></i>
+        <input
+          type="email"
+          placeholder="E-mail"
+          required
+          autocomplete="email"
+          spellcheck="false"
+        />
+        <i class="fas fa-arrow-right"></i>
+      </div>
+      <div class="field-pas inactive">
+        <i class="fas fa-key"></i>
+        <input
+          type="password"
+          placeholder="Password"
+          required
+          autocomplete="current-password"
+          spellcheck="false"
+        />
+        <i class="fas fa-arrow-right"></i>
+      </div>
+      <div class="field-finish inactive">
+        <p>Successfully Registered</p>
+      </div>
+    </form>
+  </body>
+  <!-- JS -->
+  <script src="script.js"></script>
+</html>
